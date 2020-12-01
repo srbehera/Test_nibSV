@@ -1,4 +1,4 @@
-File descriptions
+# File descriptions
 
   testNib_seq_N.fa: Reference sequence (10kbp region of human genome)
 
