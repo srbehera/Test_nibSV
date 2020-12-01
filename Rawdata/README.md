@@ -1,4 +1,3 @@
-# STEPS:
 1. Simulate SV
 
 	SURVIVOR simSV testNib_seq.fa parameter_file 0.1 0 out
