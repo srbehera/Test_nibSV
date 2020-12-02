@@ -12,6 +12,7 @@
 3. Map the reads to reference (using BWA)
 
 	bwa index testNib_seq.fa
+	
 	bwa mem testNib_seq.fa out.fasta_1.fasta out.fasta_2.fasta > out.sam
  
 4. Convert sam to bam, sort bam and generate cram
