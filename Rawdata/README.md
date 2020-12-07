@@ -1,6 +1,6 @@
 1. Simulate SV
 
-	SURVIVOR simSV testNib_seq.fa parameter_file 0.1 0 out
+	SURVIVOR simSV testNib_seq.fa parameter_file 0 0 out
 	(Output files: out.vcf, out.bed, out.fasta, out.insertion.fasta)
 
 2. Generate illumina reads
@@ -18,9 +18,15 @@
 4. Convert sam to bam, sort bam and generate cram
  
 	samtools view -bS out.sam > out.bam
+	
 	samtools sort out.bam > out_sorted.bam
+	
 	samtools view -T testNib_seq.fa -C -o out.cram out_sorted.bam
  
 5. Run nibblerSV
  
 	src/nibsv main -v out.vcf -r testNib_seq.fa --reads-fn out.cram -p test
+	
+Note: Please make sure SNP rate (third argument in Step 1) is set to 0. Else, it may thor error like the following 
+
+	Error: unhandled exception: /Users/srbehera/nibSV/src/nibpkg/compose.nim(31, 12) `variant.info.get("SVTYPE", variant_type) == Status.OK`  [AssertionDefect]
