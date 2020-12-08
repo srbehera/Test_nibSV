@@ -1,0 +1,1 @@
+Human chromosome 22
