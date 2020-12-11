@@ -1,0 +1,9 @@
+Simulation of chr22 with indels
+
+Parameter file:
+
+  INDEL_minimum_length: 200
+  
+  INDEL_maximum_length: 500
+  
+  INDEL_number: 200
