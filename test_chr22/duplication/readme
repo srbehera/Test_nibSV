@@ -7,3 +7,7 @@ Parameter file:
   DUPLICATION_maximum_length: 10
     
   DUPLICATION_number: 200
+  
+ out.vcf: simulated VCF file
+ 
+ output.vcf: nibSV output VCF file 
