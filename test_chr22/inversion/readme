@@ -1,0 +1,9 @@
+Simulation of chr22 with inversion
+
+Parameter file:
+
+  INVERSION_minimum_length: 60
+  
+  INVERSION_maximum_length: 80
+  
+  INVERSION_number: 200
