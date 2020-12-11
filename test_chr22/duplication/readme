@@ -1,0 +1,9 @@
+Simulation of chr22 with duplication
+
+Parameter file:
+
+  DUPLICATION_minimum_length: 100
+  
+  DUPLICATION_maximum_length: 10
+    
+  DUPLICATION_number: 200
