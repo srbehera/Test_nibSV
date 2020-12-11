@@ -8,6 +8,8 @@ Parameter file:
     
   DUPLICATION_number: 200
   
- out.vcf: simulated VCF file
+ Output: 
+  
+  out.vcf: simulated VCF file
  
- output.vcf: nibSV output VCF file 
+  output.vcf: nibSV output VCF file 
