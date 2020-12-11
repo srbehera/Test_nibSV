@@ -7,3 +7,7 @@ Parameter file:
   INVERSION_maximum_length: 80
   
   INVERSION_number: 200
+  
+ out.vcf: simulated VCF file
+ 
+ output.vcf: nibSV output VCF file 
