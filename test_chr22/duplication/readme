@@ -1,6 +1,6 @@
-Simulation of chr22 with duplication
+# Simulation of chr22 with duplication
 
-Parameter file:
+# Parameter file:
 
   DUPLICATION_minimum_length: 100
   
@@ -8,7 +8,7 @@ Parameter file:
     
   DUPLICATION_number: 200
   
- Output: 
+ # Output: 
   
   out.vcf: simulated VCF file
  
