@@ -1,10 +1,11 @@
 kmer size vs recall
 
-k-mer	Total	TP	FN	Recall	INS	DEL	OTHER
-10	1393	83	1310	0.060	597	713	0
-15	1393	1381	12	0.991	1	11	0
-20	1393	1390	3	0.998	0	3	0
-25	1393	1391	2	0.999	0	2	0
-30	1393	1391	2	0.999	0	2	0
+k-mer	Total	TP	FP*	FN	Recall	INS	DEL	OTHER
+10	1393	83	11	1310	0.060	597	713	0
+15	1393	1381	261	12	0.991	1	11	0
+20	1393	1390	263	3	0.998	0	3	0
+25	1393	1391	263	2	0.999	0	2	0
+30	1393	1391	263	2	0.999	0	2	0
 
 The last three columns show the number of different SVTYPE in FN
+*SV calls with HG2count=0
