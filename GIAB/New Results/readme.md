@@ -1,6 +1,6 @@
 ## Datsets used
 
-Benchmark SVs:
+### Benchmark SVs:
 
 ###### ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/analysis/NIST_SVs_Integration_v0.6/HG002_SVs_Tier1_v0.6.vcf.gz
 
