@@ -11,5 +11,5 @@ samtools faidx hg38.fa chr22  > chr22.fa
 
 ### BAM file:
 
-Link: ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG002_NA24385_son/NIST_Illumina_2x250bps/novoalign_bams/HG002.GRCh38.2x250.bam
+###### ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG002_NA24385_son/NIST_Illumina_2x250bps/novoalign_bams/HG002.GRCh38.2x250.bam
 samtools view -b HG002.GRCh38.2x250.bam chr22 > HG002.GRCh38.chr22.bam
