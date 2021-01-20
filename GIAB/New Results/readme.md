@@ -2,7 +2,7 @@
 
 ### Benchmark SVs:
 
-##### ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/analysis/NIST_SVs_Integration_v0.6/HG002_SVs_Tier1_v0.6.vcf.gz
+###### ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/analysis/NIST_SVs_Integration_v0.6/HG002_SVs_Tier1_v0.6.vcf.gz
 
 ### Reference sequence:
 
@@ -11,3 +11,4 @@
 ### BAM file:
 
 ###### ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/AshkenazimTrio/HG002_NA24385_son/NIST_Illumina_2x250bps/novoalign_bams/HG002.GRCh38.2x250.bam
+samtools view -b HG002.GRCh38.2x250.bam chr22 > HG002.GRCh38.chr22.bam
