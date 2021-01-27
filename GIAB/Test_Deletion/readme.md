@@ -1,14 +1,9 @@
-## Testing for SVTYPE=DEL
+### Testing for SVTYPE=DEL
 
-### output_m0.vcf: Output of nibSV 
+output_m0.vcf: Output of nibSV when run with HG002_SVs_Tier1_v0.6_chr22.vcf as input
 
-### FN_DEL.vcf: False negative SVs for SVTYP=DEL
+FN_DEL.vcf: False negative SVs for SVTYP=DEL
 
-### output_FN_DEL.vcf: Output of nibSV when run with N_DEL.vcf as input
-Add files via upload
-5 minutes ago
-output_FN_DEL.vcf
-Add files via upload
-5 minutes ago
+output_FN_DEL.vcf: Output of nibSV when run with N_DEL.vcf as input
 
 
